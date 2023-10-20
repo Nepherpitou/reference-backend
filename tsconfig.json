@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "application" },
+    { "path": "feature/database-common" }
+  ]
+}

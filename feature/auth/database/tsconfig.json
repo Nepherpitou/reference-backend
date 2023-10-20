@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "references": [{ "path": "../../database-common" }],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

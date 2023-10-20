@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.base.json",
+  "references": [{ "path": "../feature/auth/database" }],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}
