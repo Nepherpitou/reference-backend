@@ -1,7 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist"
-  }
+    "rootDir": "./src",
+    "outDir": "../../build/feature-common-database"
+  },
+  "include": [
+    "src/*.ts"
+  ]
 }

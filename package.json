@@ -9,11 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "application",
-    "feature/database-common",
-    "feature/auth/database"
-  ],
   "devDependencies": {
     "typescript": "^5.2.2"
   }

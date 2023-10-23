@@ -1,8 +1,11 @@
-import '@backend/auth-database';
-import { Database } from '@backend/database-common';
+import { createDatabase, Database } from '../../feature/database-common/src';
+import { DatabaseImpl } from '../../feature/database-common/src/DatabaseImpl';
 
 console.log('Hello from application');
-const database: Database = new Database();
+const database: Database = createDatabase();
+const impl: DatabaseImpl | null = null;
+database.connect();
+console.log(impl);
 // const database = new Database();
 // database.connect();
 // database.rows().forEach((r) => r.name);

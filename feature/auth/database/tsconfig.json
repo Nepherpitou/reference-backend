@@ -1,8 +1,13 @@
 {
   "extends": "../../../tsconfig.base.json",
-  "references": [{ "path": "../../database-common" }],
+  "references": [
+    { "path": "../../database-common" }
+  ],
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist"
-  }
+    "outDir": "../../../build/feature-auth-database"
+  },
+  "files": [
+    "src/index.ts"
+  ]
 }

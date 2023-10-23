@@ -1,8 +1,12 @@
 {
   "extends": "../tsconfig.base.json",
-  "references": [{ "path": "../feature/auth/database" }],
+  "references": [
+    { "path": "../feature/auth/database" }
+  ],
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist"
+    "rootDir": "./src",
+    "outDir": "../build/application-api",
+    "emitDeclarationOnly": false,
+    "noEmit": true
   }
 }

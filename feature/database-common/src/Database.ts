@@ -1,22 +1,7 @@
-export class Database {
-  connect() {
-    console.log("DB Connect!");
-  }
+import { Row } from './types';
 
-  rows(): Row[] {
-    return [
-      {
-        id: 1,
-        name: "foo",
-      },
-    ];
-  }
+export abstract class Database {
+  abstract connect(): void
+
+  abstract rows(): Row[]
 }
-
-/**
- * @inter1nal1
- */
-export type Row = {
-  id: number;
-  name: string;
-};

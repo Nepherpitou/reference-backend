@@ -1,7 +1,12 @@
 {
-  "files": [],
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "."
+  },
   "references": [
-    { "path": "application" },
+    { "path": "./application" },
+    { "path": "feature/auth/database" },
     { "path": "feature/database-common" }
-  ]
+  ],
+  "files": []
 }
